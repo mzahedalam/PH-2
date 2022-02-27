@@ -50,3 +50,15 @@ header h1 {
   line-height: 80px;
   padding: 10%;
 }
+
+header ul {
+  padding: 5%;
+}
+header li {
+  display: inline-block;
+
+}
+
+header .login {
+  float: right;
+}
