@@ -7,6 +7,10 @@
   box-sizing: border-box;
 }
 
+.clr {
+  clear: both;
+}
+
 html,
 body {
   font-family: "Poppins", sans-serif;
@@ -23,6 +27,19 @@ header {
   background-color: #e8c547;
   margin: 0%;
   padding: 0%;
+}
+
+.banner-text {
+  width: 50%;
+  float: left;
+}
+.banner-img {
+  width: 40%;
+  float: left;
+}
+
+.banner-img img {
+  width: 100%;
 }
 
 header h1 {
