@@ -51,14 +51,26 @@ header h1 {
   padding: 10%;
 }
 
+header a {
+  color: #020202;
+  text-decoration: none;
+}
+
 header ul {
+  display: flex;
   padding: 5%;
 }
-header li {
-  display: inline-block;
-
+header ul li {
+  flex: 0.5;
+  list-style: none;
+  padding: 0.5rem;
 }
-
-header .login {
-  float: right;
+header ul li:nth-child(3) {
+  flex: 1;
+}
+header ul li:nth-child(4) {
+  flex: 1;
+}
+header ul li:nth-child(5) {
+  flex: 3;
 }
