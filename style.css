@@ -48,7 +48,7 @@ header h1 {
   font-size: 64px;
   font-weight: bold;
   line-height: 80px;
-  padding: 10%;
+  padding: 5rem;
 }
 
 header a {
@@ -77,7 +77,7 @@ header ul li:nth-child(5) {
 
 .container {
   display: flex;
-  padding: 5%;
+  padding: 2rem;
 }
 
 .container ul {
