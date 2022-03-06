@@ -100,9 +100,35 @@ header ul li:nth-child(5) {
   padding: 5px;
 }
 
+section {
+  margin: 2rem 7rem 2rem 7rem;
+}
+.players-row {
+  margin: 2rem 0 2rem 0;
+}
 .players {
   display: flex;
 }
+.individual {
+  flex-basis: 330px;
+  /* background-color: #da3e52; */
+  box-shadow: 0 4px 8px 0 rgba(157, 162, 171, 0.2);
+  padding: 1rem 1rem;
+}
+.individual img {
+  width: 100%;
+}
 
-
-
+/* Utility Classes */
+.space-left {
+  margin-left: 2rem;
+}
+.space-right {
+  margin-right: 2rem;
+}
+.space-top {
+  padding-top: 2rem;
+}
+.space-bottom {
+  padding-bottom: 3rem;
+}
