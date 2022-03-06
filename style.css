@@ -83,14 +83,14 @@ header ul li:nth-child(5) {
 .container ul {
   display: flex;
   list-style: none;
+  flex-flow: row wrap;
   justify-content: space-evenly;
 }
 
 .nav-right {
   flex: 10%;
   display: flex;
-  align-items: flex-end;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .nav-left {
   flex: 70%;
@@ -99,5 +99,10 @@ header ul li:nth-child(5) {
   background-color: aliceblue;
   padding: 5px;
 }
+
+.players {
+  display: flex;
+}
+
 
 
