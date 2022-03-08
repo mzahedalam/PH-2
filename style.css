@@ -29,17 +29,12 @@ header {
   padding: 0%;
 }
 
-.banner-text {
-  width: 50%;
-  float: left;
-}
-.banner-img {
-  width: 40%;
-  float: left;
-}
-
 .banner-img img {
   width: 100%;
+}
+
+.banner {
+  display: flex;
 }
 
 header h1 {
@@ -55,25 +50,6 @@ header a {
   color: #020202;
   text-decoration: none;
 }
-
-/* header ul {
-  display: flex;
-  padding: 5%;
-}
-header ul li {
-  flex: 0.5;
-  list-style: none;
-  padding: 0.5rem;
-}
-header ul li:nth-child(3) {
-  flex: 1;
-}
-header ul li:nth-child(4) {
-  flex: 1;
-}
-header ul li:nth-child(5) {
-  flex: 3;
-} */
 
 .container {
   display: flex;
@@ -104,7 +80,7 @@ header ul li:nth-child(5) {
 }
 
 section {
-  margin: 2rem 7rem 2rem 7rem;
+  margin: 3rem 7rem 2rem 7rem;
 }
 .players-row {
   margin: 2rem 0 2rem 0;
@@ -158,16 +134,48 @@ section {
   flex: 2;
 }
 .box-footer2 img {
-  width: 80%;
+  width: 60%;
 }
 .box-footer3 {
   flex: 1;
+}
+.headlines {
+  display: flex;
+}
+.box-1 {
+  flex: 1;
+}
+.box-2 {
+  flex: 2;
+}
+.box-1 img {
+  width: 100%;
+}
+.box-2 h1 {
+  text-align: center;
+  padding: 1rem 0 1rem 0;
+}
+
+.headline-1 {
+  display: flex;
+
+}
+.hl-image {
+  flex: 1;
+}
+.hl-image img {
+  width: 100%;
+}
+.hl-title {
+  flex: 4;
+  justify-content: center;
+  align-self: center;
 }
 
 .social {
   display: flex;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 22%;
   color: #9da2ab;
 }
 .copytext {
@@ -192,4 +200,8 @@ section {
 }
 .space-bottom {
   padding-bottom: 3rem;
+}
+.hr {
+  border-top: 1px #e8c547 dashed;
+  margin-bottom: .5rem;
 }
