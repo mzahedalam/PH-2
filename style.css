@@ -29,7 +29,7 @@ header {
   padding: 0%;
 }
 #banner-img {
-  transition: transform 2s;
+  transition: transform 3s;
 }
 div#banner-img:hover {
   transform: rotate(25deg);
@@ -41,6 +41,16 @@ div#banner-img:hover {
 
 .banner {
   display: flex;
+}
+
+#login {
+  transition: width 2s, height 4s;
+}
+
+#login:hover {
+  width: 100%;
+  height: 100%;
+  text-align: center;
 }
 
 header h1 {
