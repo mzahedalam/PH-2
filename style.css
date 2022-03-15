@@ -198,25 +198,21 @@ section {
 }
 
 .footer {
-  display: flex;
-  gap: 1rem;
+  /* display: flex; */
   text-align: center;
 }
-.box-footer1 {
-  flex: 1;
-}
 .box-footer2 {
-  flex: 4;
+  align-items: center;
+  justify-content: center;
 }
 .box-footer2 i {
   padding: .5rem;
+  text-align: center;
 }
 .box-footer2 img {
   width: 60%;
 }
-.box-footer3 {
-  flex: 1;
-}
+
 .headlines {
   display: flex;
 }
