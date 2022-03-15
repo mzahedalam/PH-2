@@ -1,5 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Smart Phone */
+@media (max-width: 500px) {
+  #header,
+  .container,
+  .players,
+  .banner {
+    flex-direction: column;
+  }
+
+  .banner-text {
+    padding: 10%;
+  }
+  .banner-text > h1 {
+    color: #e02c6d;
+    font-size: 44px !important;
+    font-weight: bold;
+    line-height: 80px;
+    padding: 0% 0% 2% 0% !important;
+  }
+  .banner-img {
+    padding: 1% 10% 0% 10%;
+  }
+  .space-left,
+  .space-right {
+    margin: 2rem 0rem !important;
+  }
+}
 /* Reset Default CSS rules */
 * {
   margin: 0;
@@ -53,13 +80,13 @@ div#banner-img:hover {
   text-align: center;
 }
 
-header h1 {
+.banner-text h1 {
   font-family: "Poppins", sans-serif;
   color: #020202;
   font-size: 64px;
   font-weight: bold;
   line-height: 80px;
-  padding: 5rem;
+  padding: 10%;
 }
 
 header a {
@@ -103,6 +130,7 @@ section {
 }
 .players {
   display: flex;
+  flex-wrap: wrap;
 }
 .individual {
   flex: 25%;
