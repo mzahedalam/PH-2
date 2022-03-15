@@ -5,7 +5,9 @@
   #header,
   .container,
   .players,
-  .banner {
+  .banner,
+  .highlights,
+  .headlines {
     flex-direction: column;
   }
 
@@ -22,9 +24,25 @@
   .banner-img {
     padding: 1% 10% 0% 10%;
   }
+
   .space-left,
   .space-right {
     margin: 2rem 0rem !important;
+  }
+
+  .hg-title h1 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 40px;
+  }
+  .hg-title p {
+    font-size: 16px;
+    line-height: 28px;
+    padding: 1rem 1rem 1rem 0;
+  }
+
+  .hl-title {
+    margin-left: 2rem !important;
   }
 }
 /* Reset Default CSS rules */
@@ -139,6 +157,16 @@ section {
   box-shadow: 0 4px 8px 0 rgba(157, 162, 171, 0.2);
   padding: 1rem 1rem;
 }
+.details h3 {
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 40px;
+  padding: 2% 0 2% 0;
+}
+.details p {
+  font-size: 16px;
+  line-height: 26px;
+}
 .individual img {
   width: 100%;
 }
@@ -171,12 +199,17 @@ section {
 
 .footer {
   display: flex;
+  gap: 1rem;
+  text-align: center;
 }
 .box-footer1 {
   flex: 1;
 }
 .box-footer2 {
-  flex: 2;
+  flex: 4;
+}
+.box-footer2 i {
+  padding: .5rem;
 }
 .box-footer2 img {
   width: 60%;
@@ -203,6 +236,7 @@ section {
 
 .headline-1 {
   display: flex;
+  align-items: center;
 }
 .hl-image {
   flex: 1;
@@ -213,9 +247,12 @@ section {
 .hl-title {
   flex: 4;
   justify-content: center;
-  align-self: center;
 }
 
+footer a {
+  color: #e8c547;
+  text-decoration: none;
+}
 .social {
   display: flex;
   align-items: center;
