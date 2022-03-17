@@ -1,3 +1,5 @@
+*.fig
+*.pdf
 .DS_Store
 composer.phar
 /vendor/
