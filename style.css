@@ -10,6 +10,14 @@
   .headlines {
     flex-direction: column;
   }
+  .container {
+    padding: 1% !important;
+  }
+  .container ul {
+    display: flex;
+    flex-direction: column;
+    padding-top: 5% !important;
+  }
 
   .banner-text {
     padding: 10%;
@@ -43,6 +51,10 @@
 
   .hl-title {
     margin-left: 2rem !important;
+  }
+  #login {
+    margin-left: 2rem;
+    margin-top: 1rem;
   }
 }
 /* Reset Default CSS rules */
@@ -120,7 +132,7 @@ header a {
 .container ul {
   display: flex;
   list-style: none;
-  flex-flow: row wrap;
+  /* flex-flow: row wrap; */
   justify-content: flex-start;
 }
 
